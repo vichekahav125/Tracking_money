@@ -23,15 +23,15 @@ export default function MonthlyOverviewChart({ history }: { history: MonthlySumm
         <div style={{ minWidth: Math.max(320, data.length * 90) }}>
           <ResponsiveContainer width="100%" height={280}>
             <BarChart data={data} margin={{ top: 4, right: 8, bottom: 4, left: 0 }}>
-              <CartesianGrid vertical={false} stroke="#dfe6e3" />
-              <XAxis dataKey="name" tick={{ fontSize: 12 }} stroke="#8a9793" />
-              <YAxis tickFormatter={(v) => `$${v}`} tick={{ fontSize: 12 }} stroke="#8a9793" width={56} />
-              <Tooltip formatter={(v) => formatMoney(Number(v))} cursor={{ fill: 'rgba(15,92,77,0.06)' }} />
+              <CartesianGrid vertical={false} stroke="#efdbe5" />
+              <XAxis dataKey="name" tick={{ fontSize: 12 }} stroke="#b08a9b" />
+              <YAxis tickFormatter={(v) => `$${v}`} tick={{ fontSize: 12 }} stroke="#b08a9b" width={56} />
+              <Tooltip formatter={(v) => formatMoney(Number(v))} cursor={{ fill: 'rgba(190,24,93,0.06)' }} />
               <Legend />
               <Bar dataKey="Total money" fill="#5f6b76" radius={[4, 4, 0, 0]} />
               <Bar dataKey="Expenses" fill="#d1495b" radius={[4, 4, 0, 0]} />
               <Bar dataKey="Savings" fill="#3b5bdb" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="Remaining" fill="#0f5c4d" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="Remaining" fill="#be185d" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>

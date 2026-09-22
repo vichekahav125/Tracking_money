@@ -15,5 +15,5 @@ export const DEFAULT_CATEGORIES: ReadonlyArray<{ name: string; type: CategoryTyp
 export const PAYMENT_METHOD_SUGGESTIONS = ['Cash', 'Debit card', 'Credit card', 'Bank transfer', 'Mobile wallet'];
 
 export const CHART_COLORS = [
-  '#0f5c4d', '#3b5bdb', '#d1495b', '#e0a100', '#7a4fd6', '#0e8fa8', '#8a6d3b', '#5f6b76', '#2f9e6b', '#c2578a',
+  '#be185d', '#3b5bdb', '#d1495b', '#e0a100', '#7a4fd6', '#0e8fa8', '#8a6d3b', '#5f6b76', '#c2185b', '#2f9e6b',
 ];
